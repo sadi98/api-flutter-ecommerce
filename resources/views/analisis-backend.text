@@ -1,0 +1,33 @@
+Analisis Database Backend
+User
+1. Username
+2. Phone_number
+3. Roles
+
+Kategori Produk
+1.  Nama
+
+Kategori Produk
+1.  Nama
+2.  Harga
+3.  Deskripsi
+4.  Tags
+5.  Kategori Produk (relasi dari Kategori)
+
+Galeri Produk
+1. Produk
+2. Url (untuk menyimpan foto)
+
+Transaksi
+1. User (yang membeli)
+2. Alamat
+3. Metode bayar (manual)
+4. Total harga
+5. Total pengiriman
+6. Status (aprooval di backend)
+
+Detail Transaksi
+1.  User
+2.  Produk
+3.  Transaksi
+4.  Kuantitas (jika ingin membeli Produk lain lebih dari 1 item)
